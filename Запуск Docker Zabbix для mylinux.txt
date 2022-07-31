@@ -1,0 +1,1 @@
+docker run --name myzabbix-agent -e ZBX_HOSTNAME="mylinux" -e ZBX_SERVER_HOST="192.168.1.104" -d zabbix/zabbix-agent:ubuntu-4.0-latest
